@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Background="Red">
+    <Border Background="Black" CornerRadius="20" Margin="20">
+        <StackPanel Margin="10">
+            <Label Content="My home" Foreground="White" FontSize="15"/>
+            <TextBlock Text=" Start equip your smart house" Foreground="White"/>
+            <Separator></Separator>
+            <Button Name="btnAdddev" Click="btnAdddev_Click" Content="Add device" Margin="10" Background="#2F2936" Foreground="White" FontSize="18" Height="42"/>
+            <Button x:Name="btnDevices" Click="btnDevices_Click" Content="My devices" Margin="10" Background="#2F2936" Foreground="White" FontSize="18" Height="42"/>
+        </StackPanel>
+    </Border>
+</Window>
